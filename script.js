@@ -92,12 +92,12 @@ text.addEventListener('input', e => {
         //Clear the input
         e.target.value = '';
 
-        if (difficulty === 'hard') {
-            time += 3;
-        } else if (difficulty === 'medium') {
+       if (difficulty === 'hard') {
             time += 4;
-        } else {
+        } else if (difficulty === 'medium') {
             time += 5;
+        } else {
+            time += 6;
         }
 
         updateTime();
