@@ -126,16 +126,3 @@ input {
     height: 100%;
     z-index: 1;
 }
-
-
-/* Mobile */
-@media (max-width: 550px) {
-
-    body {
-        font-size: small;
-    }
-
-    .container {
-        width: 400px;
-    }
-}
